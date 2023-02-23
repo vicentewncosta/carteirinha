@@ -21,7 +21,6 @@ Não há banco de dados. Os dados são carregados de 2 arquivos que contém arra
   <img src="./docs/assets/resposiveview.png">
 </div>
 
-- [x] Link do prototipo desenvolvido no [**Figma**](https://www.figma.com/file/nOGmUkhcINJt6nd57R4ENu/Untitled?node-id=0%3A1).
 
 ### Layout & Componentes Responsivos
 
