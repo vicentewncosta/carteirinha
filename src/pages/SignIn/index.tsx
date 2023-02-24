@@ -24,7 +24,7 @@ const SignIn: React.FC = () => {
         <Container>
             <Logo>
                 <img src={logoImg} alt="Carteirinha" />
-                <h2 color="red">Carteirinha </h2>
+                <h2 color="white" >Carteirinha </h2>
             </Logo>
 
             <Form onSubmit={() => signIn(email, password)}>
