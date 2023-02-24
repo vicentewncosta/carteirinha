@@ -53,8 +53,8 @@ const Aside: React.FC = () => {
                 { toggleMenuIsOpened ? <MdClose /> : <MdMenu /> }
                 </ToggleMenu>
 
-                <LogImg src={logoImg} alt="Logo Minha Carteira" />
-                <Title>Minha Carteira</Title>
+                <LogImg src={logoImg} alt="Carteirinha" />
+                <Title>Carteirinha</Title>
             </Header>
 
             <MenuContainer>
