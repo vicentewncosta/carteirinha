@@ -9,7 +9,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.black};
 `;
 
 export const Logo = styled.div`
@@ -19,7 +19,7 @@ export const Logo = styled.div`
     margin-bottom: 30px;
 
     > h2 {
-        color: ${props => props.theme.colors.white}; 
+        color: ${props => props.theme.colors.gray}; 
         margin-left: 7px;
     }
 
@@ -37,19 +37,19 @@ export const Form = styled.form`
 
     border-radius: 10px;
 
-    background-color: ${props => props.theme.colors.tertiary};
+    background-color: ${props => props.theme.colors.gray};
 `;
 
 export const FormTitle = styled.h1`
     margin-bottom: 40px;
 
-    color: ${props => props.theme.colors.white}; 
+    color: ${props => props.theme.colors.black}; 
 
     &:after {
         content: '';
         display: block;
         width: 55px;
-        border-bottom: 10px solid ${props => props.theme.colors.warning};  
+        border-bottom: 10px solid ${props => props.theme.colors.black};  
     }
 `;
 
