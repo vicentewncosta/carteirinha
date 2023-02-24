@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import backgroundImage from '../../assets/tela-de-login.webp';
 
 export const Container = styled.div`
     height: 100vh;
@@ -8,9 +9,10 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-image: url(${backgroundImage});
     background-color: ${props => props.theme.colors.black};
 `;
+
 
 export const Logo = styled.div`
     display: flex;
@@ -35,21 +37,22 @@ export const Form = styled.form`
 
     padding: 30px;
 
-    border-radius: 10px;
+    border-radius: 9px;
 
-    background-color: ${props => props.theme.colors.gray};
+    background-color: ${props => props.theme.colors.secondary};
 `;
 
 export const FormTitle = styled.h1`
+
     margin-bottom: 40px;
 
-    color: ${props => props.theme.colors.black}; 
+    color: ${props => props.theme.colors.white}; 
 
     &:after {
         content: '';
         display: block;
-        width: 55px;
-        border-bottom: 10px solid ${props => props.theme.colors.black};  
+        width: 90px;
+        border-bottom: 10px solid ${props => props.theme.colors.white};  
     }
 `;
 
