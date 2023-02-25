@@ -12,9 +12,11 @@ interface IThemeToggleFooterProps {
 
 
 export const Container = styled.div<IContainerProps>`
+
     grid-area: AS;
     
-    background-color: ${props => props.theme.colors.secondary};
+    background-color: ${props => props.theme.colors.black};
+
     padding-left: 20px;
 
     border-right: 1px solid ${props => props.theme.colors.gray};
@@ -22,6 +24,7 @@ export const Container = styled.div<IContainerProps>`
     position: relative;
 
     @media(max-width: 600px){
+
         padding-left: 20px;
         position: fixed;
         z-index: 2;
@@ -42,7 +45,6 @@ export const Header = styled.header`
     height: 70px;
     display: flex;
     align-items: center;
-
 `;
 
 export const LogImg = styled.img`
@@ -67,8 +69,6 @@ export const Title = styled.h3`
 export const MenuContainer = styled.nav`
     display: flex;
     flex-direction: column;
-
-
     margin-top: 50px;
 `;
 
@@ -118,13 +118,17 @@ export const MenuItemButton = styled.button`
 `;
 
 export const ToggleMenu = styled.button`
+
     width: 40px;
+
     height: 40px;
 
     border-radius: 5px;
+
     font-size: 22px;
     
     background-color: ${props => props.theme.colors.warning};
+    
     color: ${props => props.theme.colors.white};
 
     transition: opacity .3s;
