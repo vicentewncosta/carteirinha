@@ -16,7 +16,10 @@ export const Container = styled.div<IContainerProps>`
     grid-area: AS;
     
     background-color: ${props => props.theme.colors.black};
+<<<<<<< HEAD
 
+=======
+>>>>>>> 04a5301173c673b1289d40d5b62b89c888377f38
     padding-left: 20px;
 
     border-right: 1px solid ${props => props.theme.colors.gray};

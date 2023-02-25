@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     grid-area: CT;
+<<<<<<< HEAD
     color: ${props => props.theme.colors.gray};
+=======
+    color: ${props => props.theme.colors.white};
+>>>>>>> 04a5301173c673b1289d40d5b62b89c888377f38
     background-color: ${props => props.theme.colors.black};
 
     padding: 20px;  
