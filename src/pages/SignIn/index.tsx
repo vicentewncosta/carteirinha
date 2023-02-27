@@ -30,6 +30,7 @@ const SignIn: React.FC = () => {
                     required
                     onChange={(e) => setEmail(e.target.value)}
                 />
+                
                 <Input 
                     type="password"
                     placeholder="senha"
